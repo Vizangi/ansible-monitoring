@@ -2,7 +2,7 @@
 
 ## Task 1
 
-- Познакомьтесь самостоятельно с разделом monitoring_project
+- Познакомьтесь самостоятельно с разделом [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/tree/main/ansible/monitoring_project)
 - Подумайте самостоятельно за что отвечают файлы: инвентори, плейбук и роли
 - Попробуйте выстроить логическую цепочку:
   - За что отвечают переменные
