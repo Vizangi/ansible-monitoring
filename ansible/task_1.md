@@ -11,3 +11,6 @@
   - Какие модули задействуются
   - Зачем нужен плейбук
   - Зачем нужны роли
+- Напишите и запустите самостоятельно роль Process Exporter на любой свободной VM по аналогии с разделом [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/tree/main/ansible/monitoring_project)
+- Проверьте, что Process Exporter отдает метрики и двигайтесь дальше
+- Запушьте изменения в GitHub
