@@ -6,15 +6,13 @@
     - vars/global.yml
 
   roles:
-    - node_exporter
-    - alertmanager
-    - grafana
-    - prometheus
-    - process_exporter
-    - blackbox_exporter
-    - mimir
-    - pushgateway
-    - nginx_prometheus_exporter
-    - nginx
-    - postgres_exporter
-    - postgresql
+    - node_exporter # мониторинг VM
+    - alertmanager # написать простое правило
+    - grafana # отдельная VM
+    - prometheus # отдельная VM + Alertmanager
+    - process_exporter # мониторинг VM
+    - blackbox_exporter # мониторинг.SSL сертов
+    - nginx_exporter # натравить на сервер Nginx
+    - nginx # SSL серты
+    - postgres_exporter # натравить на БД
+    - postgresql # БД можно пустую 
