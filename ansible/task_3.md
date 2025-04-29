@@ -4,7 +4,7 @@
 
 ### Разворачиваем стека мониторинга
 
-- Возьмите в работу плейбук [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/playbook.yml):
+- Возьмите в работу плейбук [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/playbook.yml) (в комментариях подсказка):
   - Возьмите в работу две OS:
     - **Debian Minimal** (только терминал)
     - **CentOS Minimal** (только терминал)
