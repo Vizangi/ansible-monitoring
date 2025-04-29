@@ -11,7 +11,7 @@
   - С помощью **Terraform** нарежьте 8 операционок через один скрипт (это обязательно)
   - При этом:
     - Grafana, Prometheus, Alertmanager, Nginx и PostgreSQL должны быть развернуты Unit-файлами на CentOS **на пяти отдельных VM**
-    - Node Exporter, Process Exporter и Blackbox Exporter должны быть развернуты Unit-файлами на Debian **на трех отдельных VM**
+    - Process Exporter и Blackbox Exporter должны быть развернуты Unit-файлами на Debian **на двух отдельных VM**
     - Node Exporter же должен стоять **на всех восьми VM** сразу: микс из **Debian** + **CentOS**
   - Подумайте как распределить железо по VM-кам (минимально на x1 VM: 2 CPU + 768Мб RAM + 10Гб HDD)
   - Выведите получившуюся картину на дашборды:
