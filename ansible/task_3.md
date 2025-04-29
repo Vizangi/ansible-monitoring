@@ -5,11 +5,13 @@
 ### Разворачиваем стека мониторинга
 
 - Возьмите в работу плейбук [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/playbook.yml):
-  - Возьмите в работу две OS: Debian Minimal и CentOS Minimal
-  - При этом:
-    - Grafana, Prometheus, Alertmanager, Nginx и PostgreSQL должны быть развернуты Unit-файлами на CentOS на пяти отдельных VM
-    - Node Exporter, Process Exporter и Blackbox Exporter должны быть развернуты Unit-файлами на Debian на трех отдельных VM
-    - Node Exporter же, как отдельный инстанс от всех должен стоять на всех восьми VM: Debian + CentOS
+  - **Возьмите в работу две OS:**
+    - Debian Minimal (только терминал)
+    - CentOS Minimal (только терминал)
+  - **При этом:**
+    - Grafana, Prometheus, Alertmanager, Nginx и PostgreSQL должны быть развернуты Unit-файлами на CentOS **на пяти отдельных VM**
+    - Node Exporter, Process Exporter и Blackbox Exporter должны быть развернуты Unit-файлами на Debian **на трех отдельных VM**
+    - Node Exporter же, как отдельный инстанс от всех должен стоять на всех восьми VM: **Debian + CentOS**
   - Подумайте как распределить железо по VM-кам (советую: 2 CPU + 1Гб RAM + 10Гб HDD)
   - С помощью Terraform нарежьте 8 операционок через один скрипт (это обязательно)
   - Выведите получившуюся картину на дашборды:
