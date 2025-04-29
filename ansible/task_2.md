@@ -2,7 +2,7 @@
 
 ## Task 2
 
-### Клоируем репозиторий и деплоим Docker Compose
+### Клонируем репозиторий и деплоим Docker Compose
 
 - Возьмите в работу ссылку на официальный репозиторий [mimir.git](https://grafana.com/docs/mimir/next/get-started/play-with-grafana-mimir/) (где расписан деплой через Docker Compose), как в том самом стеке из раздела Docker по таске, где было горизонтальное масштабирование из x3 Mimir
 - Напишите следующие роли Ansible:
