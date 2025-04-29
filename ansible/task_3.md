@@ -2,7 +2,7 @@
 
 ## Task 3
 
-### Разворачиваем стек мониторинга
+### Автоматизируем деплой стека мониторинга по виртуалкам
 
 - Возьмите в работу плейбук [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/playbook.yml) (в комментариях подсказка):
   - Возьмите в работу две OS:
