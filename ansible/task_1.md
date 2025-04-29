@@ -2,6 +2,8 @@
 
 ## Task 1
 
+### Пишем первую роль и интегрируемся на x3 VM
+
 - Познакомьтесь с разделом [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/tree/main/ansible/monitoring_project):
   - Это рабочий проект **Ansible**
   - У вас по следующим заданиям должен быть такой же
