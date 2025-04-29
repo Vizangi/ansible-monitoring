@@ -9,7 +9,7 @@
     - **Debian Minimal** (только терминал)
     - **CentOS Minimal** (только терминал)
   - С помощью **Terraform** нарежьте 8 операционок через один скрипт (это обязательно)
-  - Подумайте как распределить железо по VM-кам (минимально на x1 VM: 2 CPU + 768Мб RAM + 10Гб HDD)
+  - Подумайте как распределить железо по VM-кам (минимально на x1 VM: 2 CPU + 768Мб RAM + 10Гб SSD)
   - Напишите [основной плейбук](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/playbook.yml), наполните файл [инвентори](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/inventory.ini) и роли на стек ниже и задеплойте:
     - Grafana, Prometheus, Alertmanager, Nginx и PostgreSQL должны быть развернуты Unit-файлами на CentOS **на пяти отдельных VM**
     - Process Exporter и Blackbox Exporter должны быть развернуты Unit-файлами на Debian **на двух отдельных VM**
