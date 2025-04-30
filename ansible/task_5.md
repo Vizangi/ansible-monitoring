@@ -14,5 +14,6 @@
 - По [заданию 3](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/task_3.md) у вас уже были задеплоены x8 Node Exporter-ов:
   - Сделайте имитацию, что 3 экспортера не запущены `sudo systemctl stop node_exporter.service` и `sudo systemctl disable node_exporter.service`
   - x1 Node Exporter полностью удалите с VM
+  - x4 Node Exporter оставляем без изменений
   - Далее запустите Ansible скрипт и убедитесь в его успешном выполнении
 - Запушьте изменения в Github
