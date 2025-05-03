@@ -18,7 +18,8 @@
 ### **Структура репозитория:**
 
 ### Содержание
- 
+- **Предисловие**
+  - Перед выполнением заданий по репозиторию нужно пройти [хендук по Python от Яндекс](https://education.yandex.ru/handbook/python) и только первые две главы. Если есть время и желание, то можно в фоне проходить и дальше, совмещая с прохождением курса. 
   1. Теория. [Открываем директорию](https://github.com/lamjob1993/ansible-monitoring/tree/main/ansible/beggining):
      **`ansible`** → `beginning` `...`
   2. Практика. [Открываем директорию](https://github.com/lamjob1993/ansible-monitoring/tree/main/ansible):
