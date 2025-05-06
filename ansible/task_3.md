@@ -2,16 +2,15 @@
 
 ## Task 3
 
-### Автоматизируем деплой стека мониторинга на x8 VM
+### Автоматизируем деплой стека мониторинга на x8 контейнеров
+
+На реальной работе в **`DEV-TEST-PROD`** контурах у вас будут настоящие CentOS виртуалки, поэтому не пугаемся, мы берем Podman в работу, так как он почти не жрёт ресурсы и в состоянии буквально за секунды развернуть хоть 10, хоть 20 контейнеров (но в голове держим, что это стандартные VM-ки).
 
 - Возьмите в работу плейбук [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/playbook.yml) (в комментариях подсказка):
-  - Возьмите в работу две OS:
-    - **Debian Minimal** (только терминал)
-    - **CentOS Minimal** (только терминал)
-  - С помощью **Terraform** нарежьте 8 операционок через один скрипт (это обязательно)
-  - Подумайте как распределить железо по VM-кам (минимально на x1 VM: 2 CPU + 768Мб RAM + 10Гб SSD)
+  - Возьмите в работу Podman на x8 контейнеров:
+    - С помощью **Terraform** нарежьте 8 чистых (пустых) контейнеров
   - Напишите [основной плейбук](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/playbook.yml), наполните файл [инвентори](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/inventory.ini) и роли на стек ниже и задеплойте:
-    - Grafana, Prometheus, Alertmanager, Nginx и PostgreSQL должны быть развернуты Unit-файлами на **CentOS на пяти отдельных VM**
+    - Grafana, Prometheus, Alertmanager, Nginx и PostgreSQL должны быть развернуты Unit-файлами на **CentOS на пяти отдельных контейнерах**
     - Process Exporter и Blackbox Exporter должны быть развернуты Unit-файлами на **Debian на двух отдельных VM**
     - Node Exporter (+ x1 Debian, которой не хватает с голым Node Exporter) должен стоять **на всех восьми VM** сразу: микс из **Debian** + **CentOS**
   - Выведите получившуюся картину на дашборды:
