@@ -6,7 +6,7 @@
     - vars/global.yml
 
   roles:
-    - node_exporter # мониторинг железа VM
+    - node_exporter     # мониторинг железа VM
     - alertmanager # написать простое правило
     - grafana # отдельная VM
     - prometheus # отдельная VM + Alertmanager
