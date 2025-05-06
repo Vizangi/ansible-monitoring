@@ -7,7 +7,7 @@
 - На данном этапе мы наблюдаем наглядное представление **Terraform IaC** с развертыванием и управлением инфраструктуры, как кодом + **Ansible IaC** с развертыванием и управлением конфигурацией, как кодом. 
 - На реальной работе в **`DEV-TEST-PROD`** контурах у вас будут настоящие CentOS виртуалки, поэтому не пугаемся, мы берем Podman в работу, так как он почти не жрёт ресурсы и в состоянии буквально за секунды развернуть хоть 10, хоть 20 контейнеров (но в голове держим, что это стандартные VM-ки).
 
-- Возьмите в работу плейбук [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/playbook.yml) (в комментариях к YAML подсказка):
+- Возьмите в работу плейбук [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/playbook.yml) (в комментариях в YAML подсказка):
   - Возьмите в работу **Podman** + **Docker**:
     - С помощью **Terraform** нарежьте 8 чистых (пустых) контейнеров
   - Напишите [основной плейбук](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/playbook.yml), наполните файл [инвентори](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/inventory.ini) и роли на стек ниже и задеплойте:
