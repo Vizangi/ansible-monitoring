@@ -14,7 +14,6 @@
   - Зачем нужен плейбук
   - Зачем нужны роли
 - Установите Ansible на свободную VM из-под бинаря с официального сайта
-  - Ansible должен стоять на самостоятельной VM (отдельной от остальных для понимания его работы)
 - Напишите и запустите роль **Process Exporter** сразу на трех VM по аналогии с разделом [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/tree/main/ansible/monitoring_project):
   - Process Exporter ставим `Unit-файлом` со всеми вытекающими
 - Проверьте с помощью скрипта Ansible, что **Process Exporter-ы** отдают метрики на `/metrics` и двигайтесь дальше
