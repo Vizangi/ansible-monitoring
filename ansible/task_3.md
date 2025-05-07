@@ -11,7 +11,7 @@ _Для подобного рода задач заводится таска в 
 
 - Возьмите в работу плейбук [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/playbook.yml) (в комментариях в YAML подсказка):
   - Возьмите в работу **Podman** + **Docker**:
-    - С помощью **Terraform** нарежьте 8 чистых (пустых) контейнеров
+    - С помощью **Terraform** нарежьте 8 чистых (пустых) контейнеров с помощью **Docker** + **Podman**
   - Напишите [основной плейбук](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/playbook.yml), наполните файл [инвентори](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/monitoring_project/inventory.ini) и роли на стек ниже и задеплойте:
     - Grafana, Prometheus, Alertmanager, Nginx и PostgreSQL должны быть развернуты через **Podman на пяти отдельных контейнерах**
     - Process Exporter, Node Exporter и Blackbox Exporter должны быть развернуты через **Docker на трех отдельных контейнерах**
