@@ -1,6 +1,6 @@
 # Ansible Monitoring
 
-## Добро пожаловать в репозиторий Ansible Monitoring!
+## [Содержание](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/README.md)
 
 Добро пожаловать в репозиторий курса "Ansible Monitoring". Это репозиторий полностью посвященный автоматизации задач, связанных с мониторингом вашей инфраструктуры и приложений.
 
