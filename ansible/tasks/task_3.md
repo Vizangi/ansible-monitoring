@@ -11,7 +11,9 @@ _Для подобного рода задач заводится таска в 
 
 - Возьмите в работу плейбук [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/tree/main/ansible/tasks/monitoring_project) (в комментариях в YAML подсказка):
   - Возьмите в работу **Docker**:
-    - С помощью **Terraform** нарежьте 8 чистых (пустых) контейнеров с помощью **Docker** (в каждом контейнере должен быть установлен клиент **openssh**, так как в основе работы **Ansible** лежит **ssh**).
+    - С помощью **Terraform** нарежьте 8 чистых (пустых) контейнеров с помощью **Docker**.
+    - В каждом контейнере должен быть установлен клиент **openssh**, так как в основе работы **Ansible** лежит **ssh**.
+    - А также нужно подумать, что делать с `systemd` в контейнере, как запустить контейнер с его принудительной поддержкой.
   - Напишите [основной плейбук](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/tasks/monitoring_project/playbook.yml), наполните файл [инвентори](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/tasks/monitoring_project/inventory.ini) и роли на стек из плейбука:
   - Выведите получившуюся картину на дашборды:
     - Дашборды использовать официальные (они у вас уже были скачаны по [Docker репозиторию](https://github.com/lamjob1993/docker-monitoring/blob/main/docker/task_4.md)).
