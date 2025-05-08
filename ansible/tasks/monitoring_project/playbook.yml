@@ -5,7 +5,7 @@
   vars_files:
     - vars/global.yml
 
-  roles:
+  roles: # всего 10 ролей и 8 контейнеров
     - node_exporter        # мониторинг железа
     - alertmanager         # конфиг не пишем
     - grafana              # отдельная Grafana
