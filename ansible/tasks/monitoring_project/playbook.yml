@@ -7,12 +7,12 @@
 
   roles:
     - node_exporter        # мониторинг железа
-    - alertmanager         # написать простое правило
+    - alertmanager         # конфиг не пишем
     - grafana              # отдельная Grafana
-    - prometheus           # правило на Alertmanager
+    - prometheus           # правила на Alertmanager не пишем
     - process_exporter     # мониторинг процессов
-    - blackbox_exporter    # мониторинг SSL сертов
+    - blackbox_exporter    # мониторинг SSL сертов (серты не выпускаем)
     - nginx_exporter       # натравить на сервер Nginx
-    - nginx                # SSL серты + nginx_exporter
+      - nginx                # SSL серты не выпускаем + nginx_exporter (в этом же контейнере)
     - postgres_exporter    # натравить на БД
-    - postgresql           # БД можно сделать пустую 
+      - postgresql           # БД только запустить и сделать пустую (в этом же контейнере)
