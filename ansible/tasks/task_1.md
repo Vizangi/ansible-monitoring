@@ -4,7 +4,7 @@
 
 ### Пишем первую роль и деплоимся на x3 VM
 
-- Познакомьтесь с разделом [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/tree/main/ansible/monitoring_project):
+- Познакомьтесь с разделом [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/tree/main/ansible/tasks/monitoring_project):
   - Это рабочий проект **Ansible**
   - У вас по следующим заданиям должен быть такой же
 - Попробуйте выстроить логическую цепочку:
