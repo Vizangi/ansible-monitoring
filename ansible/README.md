@@ -10,3 +10,6 @@
       - Должны быть построены дашборды для всех экспортеров.
 4. **Дополнительные темы для изучения**
       - [Ansible-pull](https://habr.com/ru/articles/890276/)
+      - [Подробный гайд на английском по Terraform IaC на GitHub](https://github.com/Bes0n/Using-Terraform-to-Manage-Applications-and-Infrastructure)
+      - [Подробный гайд на английском по Ansible на GitHub](https://github.com/Bes0n/EX407-Ansible-Automation)
+      - [Подробный гайд на английском по Kubernetes на GitHub](https://github.com/Bes0n/KubernetestheHardWay)
