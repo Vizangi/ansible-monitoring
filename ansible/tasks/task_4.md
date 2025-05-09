@@ -8,7 +8,7 @@ _Для подобного рода задач заводится таска в 
 
 #### Автоматизируем деплой стека мониторинга на три контура разработки (dev, stage, prod) по x8 контейнеров (на рабочем проекте в облаке - это будут инстансы)
 
-- На данном этапе мы наблюдаем наглядное представление **Terraform IaC** с развертыванием инфраструктуры и управлением, как кодом + **Ansible IaC** с развертыванием конфигурации и управлением, как кодом.
+- На данном этапе мы наблюдаем наглядное представление **Terraform IaC** с [развертыванием инфраструктуры](https://github.com/lamjob1993/terraform-monitoring/blob/main/terraform/tasks/task_4.md) и управлением, как кодом + **Ansible IaC** с развертыванием конфигурации и управлением, как кодом.
 - Возьмите в работу плейбук [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/tasks/monitoring_project/playbook.yml) (в комментариях YAML подсказка):
   - Возьмите в работу **Docker**:
     - С помощью **Terraform** уже нарезано три контура по 8 инстансов в каждом [по заданию 4](https://github.com/lamjob1993/terraform-monitoring/blob/main/terraform/tasks/task_4.md) по репозиторию **Terraform**.
