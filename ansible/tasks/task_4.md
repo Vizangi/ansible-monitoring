@@ -11,7 +11,7 @@ _Для подобного рода задач заводится таска в 
 - На данном этапе мы наблюдаем наглядное представление **Terraform IaC** с развертыванием инфраструктуры и управлением, как кодом + **Ansible IaC** с развертыванием конфигурации и управлением, как кодом.
 - Возьмите в работу плейбук [monitoring_project](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/tasks/monitoring_project/playbook.yml) (в комментариях YAML подсказка):
   - Возьмите в работу **Docker**:
-    - С помощью **Terraform** уже нарезано три контура по 8 инстансов в каждом [в задании 4](https://github.com/lamjob1993/terraform-monitoring/blob/main/terraform/tasks/task_4.md) по репозиторию Terraform.
+    - С помощью **Terraform** уже нарезано три контура по 8 инстансов в каждом [в задании 4](https://github.com/lamjob1993/terraform-monitoring/blob/main/terraform/tasks/task_4.md) по репозиторию **Terraform**.
     - В каждом контейнере должен быть установлен клиент **openssh**, так как в основе работы **Ansible** лежит **ssh**.
     - А также нужно подумать, что делать с `systemd` в контейнере, как запустить контейнер с его принудительной поддержкой.
   - Напишите [основной плейбук](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/tasks/monitoring_project/playbook.yml), наполните файл [инвентори](https://github.com/lamjob1993/ansible-monitoring/blob/main/ansible/tasks/monitoring_project/inventory.ini) и роли на стек из плейбука:
