@@ -5,10 +5,10 @@
      **`ansible`** → `beginning` `...`
 2. **Практика**. [Открываем директорию](https://github.com/lamjob1993/ansible-monitoring/tree/main/ansible/tasks):
      **`ansible`** → `task_1.md` → `task_2.md` `...`
-3. **После исполнения всех пунктов**
+3. **После исполнения всех пунктов**:
       - У вас должна быть написана полная Ansible-автоматизация на деплой бэкенда мониторинга.
       - Должны быть построены дашборды для всех экспортеров.
-4. **Дополнительные темы для изучения**
+4. **Дополнительные темы для изучения**:
       - [Ansible-pull и GitLab CI/CD: когда лучше тянуть, чем толкать](https://habr.com/ru/articles/890276/).
       - [Подробный гайд на английском по Terraform IaC на GitHub](https://github.com/Bes0n/Using-Terraform-to-Manage-Applications-and-Infrastructure).
       - [Подробный гайд на английском по Ansible на GitHub](https://github.com/Bes0n/EX407-Ansible-Automation).
