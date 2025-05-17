@@ -1,5 +1,9 @@
 # Ansible
 
+- Читаем правила [Пункт 2](https://github.com/lamjob1993/linux-monitoring/blob/main/navigation/others/%D0%9F%D1%80%D0%B5%D0%B4%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5%20%D0%BA%20%D0%BA%D1%83%D1%80%D1%81%D1%83.md).
+
+---
+
 ## Task 1
 
 Для выполнения задач по всем разделам нам понадобится та же самая Ubuntu 22.04 + VPN, как в репозитории Terraform. Не забываем склонировать её перед использованием. 
