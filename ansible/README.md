@@ -1,7 +1,6 @@
 # Содержание
 
-0. **Предисловие**
-    - Перед выполнением заданий по репозиторию нужно пройти [хендбук по Python от Яндекс](https://education.yandex.ru/handbook/python) и только первые две главы + задачи. Если есть время и желание, то можно в фоне проходить и дальше, совмещая с прохождением курса. 
+0. [Предисловие](https://github.com/lamjob1993/terraform-monitoring/blob/main/terraform/%D0%9F%D1%80%D0%B5%D0%B4%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5.md)
 1. **Теория**. [Открываем директорию](https://github.com/lamjob1993/ansible-monitoring/tree/main/ansible/beggining):
      **`ansible`** → `beginning` `...`
 2. **Практика**. [Открываем директорию](https://github.com/lamjob1993/ansible-monitoring/tree/main/ansible/tasks):
